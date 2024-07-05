@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from 'react'
 import './App.css'
 import NavBar from '../NavBar'
 import Home from '../components/Home'
@@ -12,7 +13,7 @@ function App() {
     <div>
     <NavBar />
     <Routes>
-      <Route path='/' element={ <Home />} />
+      <Route path='/logs' element={ <Home />} />
     </Routes>
     </div>
   )
